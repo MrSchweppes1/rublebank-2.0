@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+}
+
+.dflex {
+  display: flex;
+}
+
+.al-it-center {
+  align-items: center;
+}
+
+.sp-between {
+  justify-content: space-between;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #424242;
+}
+
+.txt-blue {
+  color: #3a95ff;
+  font-weight: 600;
+}
+
+.txt-underline {
+  text-decoration: underline;
+}
+
+.top-menu {
+  border-bottom: 1px solid #dedede;
+}
+
+.top-nav {
+  height: 67px;
+  width: 940px;
+  font-size: 14px;
+}
+
+.top-nav-l {
+  width: 352px;
+}
+
+.top-nav-r {
+  width: 341px;
+}
+
+.bottom-menu {
+  height: 73px;
+  border-bottom: 1px solid #dedede;
+}
+
+.banner {
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.banner h1 {
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 110%;
+  color: #212121;
+  margin: 0;
+  margin-bottom: 63px;
+}
+
+.btns {
+  width: 440px;
+}
+
+.buttons {
+  box-sizing: border-box;
+  width: 200px;
+  height: 55px;
+}
+
+.btn-blue {
+  color: white;
+  background: #3a95ff;
+  border-radius: 3px;
+}
+
+.btn-white {
+  border: 1px solid #3a95ff;
+  border-radius: 3px;
+  background: transparent;
+}
+
+.best-offers h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  margin-top: 70px;
+}
+
+.best-offers p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+.offers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 62px 30px;
+  padding: 70px 0 110px;
+}
+
+.offer {
+  width: 555px;
+  height: 300px;
+  background: #eff2f5;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.offer h3 {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 130%;
+  color: #212121;
+  margin-top: 0;
+}
+
+.offer p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #424242;
+}
+
+.txt {
+  padding: 34px 0 0 34px;
+}
+
+.card-without-interest {
+  background: #eff2f5;
+}
+
+.card-60days {
+  width: 640px;
+  height: 450px;
+
+  background: #e0e5ea;
+  box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25),
+    5px 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  padding: 10px 10px 40px 100px;
+}
+
+.heading h2 {
+  font-weight: 600;
+  font-size: 38px;
+  color: #212121;
+  width: 650px;
+  margin-top: 10px;
+}
+
+.info {
+  width: 540px;
+}
+
+.info h3 {
+  width: 157px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+  color: #212121;
+  border-bottom: 1px solid #3a95ff;
+  padding-bottom: 14px;
+  margin-bottom: 6px;
+  margin-top: 12px;
+}
+
+.info p {
+  width: 157px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #424242;
+}

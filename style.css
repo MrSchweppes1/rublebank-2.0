@@ -156,6 +156,7 @@ a {
 
 .card-without-interest {
   background: #eff2f5;
+  padding: 137px 0;
 }
 
 .card-60days {
@@ -182,7 +183,7 @@ a {
   width: 540px;
 }
 
-.info h3 {
+.info h4 {
   width: 157px;
   text-align: center;
   font-weight: 500;
@@ -202,4 +203,81 @@ a {
   font-weight: 500;
   font-size: 18px;
   color: #424242;
+}
+
+.cards-block {
+  display: grid;
+  row-gap: 27px;
+}
+
+.card {
+  position: relative;
+  font-weight: 600;
+  font-size: 26px;
+  width: 360px;
+  height: 235px;
+
+  background: #f7f7f7;
+  box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25),
+    5px 5px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border-bottom: #3a95ff solid 5px;
+}
+
+.card img {
+  position: absolute;
+  right: 34px;
+  bottom: 34px;
+}
+
+.card h3 {
+  margin: 0;
+  padding: 34px;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 130%;
+  color: #212121;
+}
+
+.get-card {
+  padding: 70px 0 110px;
+}
+
+.get-card h2 {
+  margin: 0 0 70px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+}
+
+.algorithm {
+  width: 872px;
+  margin: auto;
+}
+
+.algorithm-item {
+  display: grid;
+  justify-items: center;
+}
+
+.algorithm-item p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  color: #212121;
+}
+
+footer {
+  background: #EFF2F5;
+  padding: 37px 0 30px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: #424242;
+}
+
+footer h4{
+  font-weight: 600;
 }
